@@ -1,0 +1,30 @@
+{
+  "id": "voice_1",
+  "name": "Ted",
+  "role": "Primary video narration",
+  "description": "Original voice: young adult American man, casual and natural, conversational delivery. Character modelled on ElevenLabs 'Mark - Natural Conversations' by description only (not cloned).",
+  "suggested_use": [
+    "Storytelling",
+    "YouTube videos",
+    "Educational content",
+    "Documentary-style videos",
+    "Long-form narration"
+  ],
+  "engine": "kokoro",
+  "voice_type": "preset_blend",
+  "preset": {
+    "file": "voices/voice_1/voice.pt",
+    "recipe": {
+      "am_michael": 0.55,
+      "am_puck": 0.45
+    }
+  },
+  "reference_audio": null,
+  "reference_transcript": null,
+  "language": "en-us",
+  "lang_code": "a",
+  "speed": 1.0,
+  "seed": 1001,
+  "default": true,
+  "offline_ready": true
+}

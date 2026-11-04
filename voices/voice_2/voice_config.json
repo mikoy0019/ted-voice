@@ -1,0 +1,30 @@
+{
+  "id": "voice_2",
+  "name": "Tessa",
+  "role": "Alternative video narration",
+  "description": "Original voice: young American woman, upbeat, bright and youthful, social-media energy. Character modelled on ElevenLabs 'Brittney - Social Media Voice' by description only (not cloned).",
+  "suggested_use": [
+    "Facebook Reels",
+    "TikTok videos",
+    "YouTube Shorts",
+    "Promotional content",
+    "Energetic narration"
+  ],
+  "engine": "kokoro",
+  "voice_type": "preset_blend",
+  "preset": {
+    "file": "voices/voice_2/voice.pt",
+    "recipe": {
+      "af_bella": 0.6,
+      "af_heart": 0.4
+    }
+  },
+  "reference_audio": null,
+  "reference_transcript": null,
+  "language": "en-us",
+  "lang_code": "a",
+  "speed": 1.05,
+  "seed": 2002,
+  "default": false,
+  "offline_ready": true
+}

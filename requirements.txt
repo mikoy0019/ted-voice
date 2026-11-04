@@ -1,0 +1,11 @@
+# PyTorch is installed FIRST by setup.bat from the PyTorch index (PyPI only has CPU builds on Windows):
+#   GPU: pip install torch --index-url https://download.pytorch.org/whl/cu126
+#   CPU: pip install torch --index-url https://download.pytorch.org/whl/cpu
+kokoro==0.9.4
+misaki[en]==0.9.4
+numpy>=1.26
+soundfile>=0.12
+requests>=2.31
+imageio-ffmpeg>=0.5
+psutil>=5.9
+pytest>=8

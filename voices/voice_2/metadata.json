@@ -1,0 +1,42 @@
+{
+  "elevenlabs_reference": {
+    "provider": "elevenlabs",
+    "voice_id": "kPzsL2i3teMYv0FxEYQ6",
+    "name": "Brittney - Social Media Voice - Fun, Youthful & Informative",
+    "source": "public_voice_library",
+    "category": "high_quality",
+    "is_owner": false,
+    "description": "A young, vibrant female voice that is perfect for celebrity news, hot topics, and fun conversation. Great for YouTube channels, informative videos, how-to's, and more! ",
+    "labels": {
+      "gender": "female",
+      "age": "young",
+      "accent": "american",
+      "descriptive": "upbeat",
+      "use_case": "social_media",
+      "language": "en"
+    },
+    "library_owner_id": "e70117aeedd1f2d59cffcc96e42961819238d6ce7ec83e34fad935c7db9e95ec",
+    "offline_ready": false,
+    "retrieved_at": "2026-10-08T08:46:22+00:00",
+    "usage": "character_reference_only"
+  },
+  "voice_id": "voice_2",
+  "name": "Tessa",
+  "origin": "original_blend",
+  "method": "Weighted average of Kokoro-82M built-in voicepacks; no speaker recordings involved.",
+  "recipe": {
+    "af_bella": 0.6,
+    "af_heart": 0.4
+  },
+  "updated": "2026-10-08",
+  "cloned_from_real_person": false,
+  "licenses": {
+    "engine_code": "Apache-2.0 (kokoro)",
+    "model_weights": "Apache-2.0 (hexgrad/Kokoro-82M)",
+    "base_voicepacks": "Apache-2.0 (hexgrad/Kokoro-82M/voices)"
+  },
+  "authorization": {
+    "required": false,
+    "reason": "This voice does not reproduce any third-party voice. ElevenLabs voices are referenced for character description only."
+  }
+}

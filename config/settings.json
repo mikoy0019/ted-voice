@@ -1,0 +1,26 @@
+{
+  "engine": "kokoro",
+  "engine_model": "hexgrad/Kokoro-82M (kokoro-v1_0.pth, Apache-2.0)",
+  "device": "auto",
+  "models_dir": "models",
+  "output_dir": "output",
+  "cache_dir": "output/.segments",
+  "sample_rate": 24000,
+  "default_format": "mp3",
+  "mp3_bitrate": "192k",
+  "seed": 1234,
+  "segment_retries": 1,
+  "segmentation": {
+    "max_chars": 260,
+    "sentence_pause_ms": 250,
+    "paragraph_pause_ms": 650
+  },
+  "loudness": {
+    "target_rms_dbfs": -20.0,
+    "peak_ceiling_dbfs": -1.0
+  },
+  "ffmpeg_path": "",
+  "offline": {
+    "block_network": true
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "_comment": "Voice routing rules. Priority: an explicit --voice, or 'Voice 1/2' or a voice name in the request, always wins. Then --content-type, then keywords in the request (rules checked top to bottom, first match wins, so platform rules sit above genre rules). Otherwise the voice whose voice_config.json has \"default\": true. Edit freely.",
+  "routing": [
+    {
+      "content_type": "facebook_reels",
+      "voice": "voice_2",
+      "keywords": [
+        "facebook reel",
+        "facebook reels",
+        "reel",
+        "reels"
+      ]
+    },
+    {
+      "content_type": "tiktok",
+      "voice": "voice_2",
+      "keywords": [
+        "tiktok",
+        "tik tok"
+      ]
+    },
+    {
+      "content_type": "youtube_shorts",
+      "voice": "voice_2",
+      "keywords": [
+        "youtube short",
+        "youtube shorts",
+        "shorts",
+        "short video",
+        "short videos"
+      ]
+    },
+    {
+      "content_type": "promotional",
+      "voice": "voice_2",
+      "keywords": [
+        "promo",
+        "promotional",
+        "advert",
+        "advertisement",
+        "commercial"
+      ]
+    },
+    {
+      "content_type": "youtube_long_form",
+      "voice": "voice_1",
+      "keywords": [
+        "youtube video",
+        "long-form",
+        "long form",
+        "youtube long"
+      ]
+    },
+    {
+      "content_type": "documentary",
+      "voice": "voice_1",
+      "keywords": [
+        "documentary",
+        "docuseries"
+      ]
+    },
+    {
+      "content_type": "educational",
+      "voice": "voice_1",
+      "keywords": [
+        "educational",
+        "tutorial",
+        "lesson",
+        "explainer",
+        "how-to",
+        "how to"
+      ]
+    },
+    {
+      "content_type": "storytelling",
+      "voice": "voice_1",
+      "keywords": [
+        "story",
+        "storytelling",
+        "narrative"
+      ]
+    }
+  ],
+  "elevenlabs": {
+    "voice_1": {
+      "provider": "elevenlabs",
+      "voice_id": "UgBBYS2sOqTuMpoF3BR0",
+      "name": "Mark - Natural Conversations",
+      "source": "public_voice_library",
+      "category": "high_quality",
+      "is_owner": false,
+      "description": "A casual, young-adult speaking in a natural manner. Perfect for Conversational AI.",
+      "labels": {
+        "gender": "male",
+        "age": "young",
+        "accent": "american",
+        "descriptive": "casual",
+        "use_case": "conversational",
+        "language": "en"
+      },
+      "library_owner_id": "024c9393c6380665357f60b1062c863cd635d79791f13d6f0a834a319d5ff56c",
+      "offline_ready": false,
+      "retrieved_at": "2026-10-08T08:46:22+00:00",
+      "usage": "character_reference_only"
+    },
+    "voice_2": {
+      "provider": "elevenlabs",
+      "voice_id": "kPzsL2i3teMYv0FxEYQ6",
+      "name": "Brittney - Social Media Voice - Fun, Youthful & Informative",
+      "source": "public_voice_library",
+      "category": "high_quality",
+      "is_owner": false,
+      "description": "A young, vibrant female voice that is perfect for celebrity news, hot topics, and fun conversation. Great for YouTube channels, informative videos, how-to's, and more! ",
+      "labels": {
+        "gender": "female",
+        "age": "young",
+        "accent": "american",
+        "descriptive": "upbeat",
+        "use_case": "social_media",
+        "language": "en"
+      },
+      "library_owner_id": "e70117aeedd1f2d59cffcc96e42961819238d6ce7ec83e34fad935c7db9e95ec",
+      "offline_ready": false,
+      "retrieved_at": "2026-10-08T08:46:22+00:00",
+      "usage": "character_reference_only"
+    }
+  }
+}

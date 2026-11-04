@@ -1,0 +1,28 @@
+.devswarm-temp/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Downloaded model checkpoints (re-created by setup.bat)
+models/*
+!models/README.md
+
+# Generated audio and segment cache
+output/*
+!output/.gitkeep
+
+# Private reference recordings and anything imported/generated for cloning
+voices/*/reference.wav
+voices/*/reference_source.*
+voices/*/samples/
+
+# Machine-specific reports
+config/hardware_report.json
